@@ -1,0 +1,50 @@
+/* Header e Footer */
+@import url(header.css);
+@import url(footer.css);
+
+/* Home */
+@import url(home/container.css);
+@import url(home/about.css);
+@import url(home/skills.css);
+@import url(home/projects.css);
+@import url(home/courses.css);
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:wght@100..900&display=swap');
+
+:root {
+    --principal-font: "Inter", sans-serif;
+    --secondary-font: "Fira Code", monospace;;
+
+    --white: #FFFFFF;
+    --grey: #EDE9F5;
+    --grey1: #DEDAE5;
+    --grey2: #CAC7D1;
+    --grey3: #B6B3BD;
+    --grey4: #A3A0A8;
+
+    --purple1: #B8ABFA;
+    --purple2: #292269;
+    --purple3: #0C0832;
+    --purple4: #04011C;
+    --pink: #7D58CC;
+    --border: #5147A5;
+    --button: #191351;
+    --hover: #9c95bb;
+
+    --bubble1: rgb(137, 25, 225);
+    --bubble1-blur: rgba(137, 25, 225, 0.440);
+    --bubble2: rgb(80, 31, 220);
+    --bubble2-blur: rgba(80, 31, 220, 0.440);
+    --bubble3: rgb(209, 19, 202);
+    --bubble3-blur: rgba(209, 19, 202, 0.440);
+
+    --green1: #C6F2B7;
+    --green2: #54C62C;
+    --green3: #1F7600;
+
+    --html: #FF4901;
+    --css: #004BED;
+    --js: #F7DF1D;
+    --bootstrap: #8507C7;
+}
