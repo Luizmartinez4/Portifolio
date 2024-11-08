@@ -25,7 +25,7 @@
             <div class="header__list">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="assets/downloads/Curriculo.docx" download="Curriculo.docx" class="download">Curriculo <img src="assets/images/download.svg" alt="icone de download"></a></li>
                 </ul>
             </div>
@@ -201,6 +201,8 @@
                 <img src="assets/images/html.png" alt="Logo do html">
                 <img src="assets/images/css.png" alt="Logo do css">
                 <img src="assets/images/bootstrap.png" alt="Logo do bootstrap">
+                <img src="assets/images/javascript.png" alt="Logo do javascript">
+                <img src="assets/images/jquery.png" alt="Logo do jquery">
             </figure>
         </section>
 
@@ -311,61 +313,11 @@
                 <img src="assets/images/Serenatto.png" alt="Foto do site Serenatto" class="projects__site-smallest">
                 <img src="assets/images/Serenatto-desktop.png" alt="Foto do site Serenatto" class="projects__site-biggest">
             </div>
-        </section>
 
-        <!-- Cursos realizados -->
-
-        <section class="courses">
-            <h1>Cursos</h1>
-            
-            <div class="courses__cards">
-                <div class="courses__container">
-
-                    <!-- Card 1 -->
-
-                    <a href="assets/downloads/curso-flexbox.pdf" download="curso-flexbox" class="courses__slide">
-                        <h2>Flex Box</h2>
-                        <h3>Alura</h3>
-                        <p>Curso de posicionamento com flex box</p>
-                    </a>
-
-                    <!-- Card 2 -->
-
-                    <a href="assets/downloads/curso-responsividade.pdf" download="curso-responsividade" class="courses__slide">
-                        <h2>Responsividade</h2>
-                        <h3>Alura</h3>
-                        <p>Curso de responsividade</p>
-                    </a>
-
-                    <!-- Card 3 -->
-
-                    <a href="assets/downloads/curso-mobile-first.pdf" download="curso-mobile-first" class="courses__slide">
-                        <h2>Mobile-First</h2>
-                        <h3>Alura</h3>
-                        <p>Curso de responsividade com Mobile-First</p>
-                    </a>
-
-                    <!-- Card 4 -->
-
-                    <a href="assets/downloads/curso-bootstrap.pdf" download="curso-bootstrap" class="courses__slide">
-                        <h2>Bootstrap</h2>
-                        <h3>Alura</h3>
-                        <p>Curso da biblioteca bootstrap</p>
-                    </a>
-                </div>
-
-                <!-- Mensagem de download para cada certificado baixado -->
-
-                <div class="download__message">
-                    <h2>Seu download foi iniciado</h2>
-                    <img src="assets/images/check.svg" alt="icone de verificado">
-                </div>
-
-                <!-- Botões prev e next para o carrossel em telas menores -->
-
-                <button class="carousel-btn prev">‹</button>
-                <button class="carousel-btn next">›</button>
+            <div class="projects__container-vermais">
+                <a href="projetos.html" target="_blank">VEJA TODOS OS SITES <img src="assets/images/link icon.svg" alt="Icone de link"></a>
             </div>
+            
         </section>
     </main>
 
@@ -383,9 +335,19 @@
         </div>
     </footer>
 
+    <!-- Botão fixo do canto inferior direito -->
+
+    <div class="retornar-inicio" id="retornar-inicio">
+        <div>
+            <img src="assets/images/Chevrons up (1).svg" alt="Clique para subir ao topo da página">
+        </div>
+    </div>
+
+    <!-- Scripts usados -->
+    
     <script src="assets/javascript/script.js"></script>
     <script src="assets/javascript/menu.js"></script>
-    <script src="assets/javascript/carrossel.js"></script>
     <script src="assets/javascript/download.js"></script>
+    <script src="assets/javascript/progress.js"></script>
 </body>
 </html>

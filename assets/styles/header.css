@@ -68,7 +68,7 @@ header {
     color: var(--hover);
 }
 
-.header__list ul li a img:hover{
+.header__list ul li a:hover img{
     filter: opacity(0.6);
 }
 

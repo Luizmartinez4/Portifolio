@@ -88,15 +88,48 @@
     .texto__animado {
         font-size: 5rem;
     }
+
+    .cursor {
+        width: 30px;
+        height: 50px;
+    }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
     .container {
         height: 50vh;
     }
     
     .texto__animado {
         font-size: 2rem;
+        width: 80%;
+    }
+
+    .cursor {
+        width: 12px;
+        height: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .texto__animado {
+        font-size: 1.5rem;
         width: 90%;
+    }
+
+    .cursor {
+        width: 10px;
+        height: 15px;
+    }
+}
+
+@media(max-width: 400px) {
+    .texto__animado {
+        font-size: 1.2rem;
+    }
+
+    .cursor {
+        width: 8px;
+        height: 12px;
     }
 }
