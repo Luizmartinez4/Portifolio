@@ -47,6 +47,10 @@
     --css: #004BED;
     --js: #F7DF1D;
     --bootstrap: #8507C7;
+    --csharp: #9B4F96;
+    --dotnet: #512BD4;
+    --mysql: #00758F;
+    --tailwind: #38BDF8;
 }
 
 .retornar-inicio {

@@ -83,6 +83,22 @@
     color: var(--js);
 }
 
+.csharp {
+    color: var(--csharp);
+}
+
+.dotnet {
+    color: var(--dotnet);
+}
+
+.mysql {
+    color: var(--mysql);
+}
+
+.tailwind {
+    color: var(--tailwind); 
+}
+
 .bootstrap {
     color: var(--bootstrap);
 }

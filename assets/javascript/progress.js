@@ -3,7 +3,7 @@ function calcScrollValue() {
     let pos = document.documentElement.scrollTop;   // Pega a posição ja rolada em relação ao topo
 
     let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;     //Calcula a altura da pagina menos o tamanho da tela do usuário
-    let scrollValue = Math.round((pos * 100) / calcHeight);     // calcula a porcentagem ja percorrida da página
+    let scrollValue = Math.round((pos * 100)/ calcHeight);     // calcula a porcentagem ja percorrida da página
 
     // Faz o botão de progresso aparecer apenas após o usuário rolar um pouco a página para baixo
     
